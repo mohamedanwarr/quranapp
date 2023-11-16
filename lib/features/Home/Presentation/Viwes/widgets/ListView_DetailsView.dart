@@ -7,10 +7,11 @@ class ListViewDetailsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
+
       height: MediaQuery.of(context).size.height*0.50,
       width: double.infinity,
       child: ListView.separated(
-        padding: EdgeInsets.zero,
+        physics: NeverScrollableScrollPhysics(),
         itemBuilder: (BuildContext context, int index) {
           return const ListViewDetailsViewInfo();
         },

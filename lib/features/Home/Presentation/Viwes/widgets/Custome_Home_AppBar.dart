@@ -3,14 +3,12 @@ import 'package:flutter_svg/svg.dart';
 import 'package:icons_flutter/icons_flutter.dart';
 import 'package:quranapp/Constant.dart';
 import 'package:quranapp/core/Utilis/Styles.dart';
-class CustomeAppBar extends StatelessWidget {
-  const CustomeAppBar({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
+AppBar CustomeAppBar() {
+  return AppBar(
+    automaticallyImplyLeading: false,
+    elevation: 0,
+    backgroundColor: Colors.transparent,
+    title: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Padding(
@@ -21,7 +19,7 @@ class CustomeAppBar extends StatelessWidget {
               child: SvgPicture.asset('Assets/images/iconlist.svg')),
         ),
         Text(
-          'Quran App',
+          'QuranApp',
           style: Styles.TextStyle20.copyWith(
             color: Ktextmaincolor.withOpacity(1),
           ),
@@ -34,6 +32,6 @@ class CustomeAppBar extends StatelessWidget {
           ),
         ),
       ],
-    );
-  }
+    ),
+  );
 }

@@ -9,32 +9,29 @@ class SurahTap extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 24.0),
-        child: ListView.separated(
-
-            itemBuilder: (context, int index) {
-              return GestureDetector(
-                  onTap: () {
-                    GoRouter.of(context).push(AppRouter.KDetailsView);
-                  },
-                  child: const LsitTileSurah());
-            },
-            separatorBuilder: (context, int index) {
-              return Padding(
-                padding: const EdgeInsets.symmetric(vertical: 5.0),
-                child: Divider(
-                  color: Ktextsecondrycolor.withOpacity(0.1),
-                  thickness: 1,
-                  endIndent: 10,
-                  indent: 10,
-                  height: 0,
-                ),
-              );
-            },
-            itemCount: 10),
-      ),
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 12.0),
+      child: ListView.separated(
+          itemBuilder: (context, int index) {
+            return GestureDetector(
+                onTap: () {
+                  GoRouter.of(context).push(AppRouter.KDetailsView);
+                },
+                child: const LsitTileSurah());
+          },
+          separatorBuilder: (context, int index) {
+            return Padding(
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
+              child: Divider(
+                color: Ktextsecondrycolor.withOpacity(0.1),
+                thickness: 1,
+                endIndent: 10,
+                indent: 10,
+                height: 0,
+              ),
+            );
+          },
+          itemCount: 114),
     );
   }
 }

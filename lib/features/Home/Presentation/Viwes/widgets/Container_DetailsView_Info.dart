@@ -48,7 +48,7 @@ class ContainerDetailsViewInfo extends StatelessWidget {
                 color: Ktextlightcolor.withOpacity(0.3),
               ),
               const SizedBox(
-                height: 16,
+                height: 10,
               ),
               const Row(
                 mainAxisSize: MainAxisSize.min,
@@ -74,7 +74,7 @@ class ContainerDetailsViewInfo extends StatelessWidget {
                 ],
               ),
               const SizedBox(
-                height: 36,
+                height: 24,
               ),
               Text(
                 'بسم لله الرحمن الرحيم',

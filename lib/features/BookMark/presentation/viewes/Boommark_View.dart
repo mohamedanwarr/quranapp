@@ -4,6 +4,21 @@ class BookMark_View extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const SafeArea(
+      child: Scaffold(
+        body: BookMarkViewBody(),
+      ),
+    );
   }
 }
+class BookMarkViewBody extends StatelessWidget {
+  const BookMarkViewBody({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return const Column(
+      
+    );
+  }
+}
+

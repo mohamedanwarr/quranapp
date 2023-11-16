@@ -8,16 +8,26 @@ class DetailsViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  const SafeArea(
-      child: Column(
-        children: [
-          CustomeDetailsAppBar(),
-          SizedBox(height: 24),
-          ContainerDetailsView(),
-          SizedBox(height: 24),
-          ListViewDetailsView(),
-        ],
-      ),
+    return  CustomScrollView(
+      slivers: [
+        SliverToBoxAdapter(
+          child:SafeArea(
+            child: Column(
+              children: [
+                CustomeDetailsAppBar(),
+                SizedBox(height: 12),
+                ContainerDetailsView(),
+                SizedBox(height: 30),
+                ListViewDetailsView(),
+              ],
+            ),
+          ),
+        ),
+        SliverFillRemaining(
+          child:  ListViewDetailsView(),
+        )
+      ],
+
     );
   }
 }

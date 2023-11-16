@@ -15,9 +15,9 @@ class LastReadContainer extends StatelessWidget {
         shadows:  const [
         BoxShadow(
         color: Colors.white,
-          blurRadius: 2.0,
+          blurRadius: 4.0,
           spreadRadius: 0.0,
-          offset: Offset(2.0, 2.0), // Shadow position
+          offset: Offset(3.0, 3.0), // Shadow position
       ),
         ],
         gradient: const LinearGradient(
