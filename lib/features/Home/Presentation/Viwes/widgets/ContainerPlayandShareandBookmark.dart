@@ -27,7 +27,7 @@ class ContainerPlayandShareandBookmark extends StatelessWidget {
               width: 29,
               height: 29,
               decoration: ShapeDecoration(
-                color: const Color(0xFF863ED5),
+                color: Ktextmaincolor,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(13.3)),
               ),
@@ -51,7 +51,7 @@ class ContainerPlayandShareandBookmark extends StatelessWidget {
                   onPressed: () {},
                   icon: const Icon(
                     FlutterIcons.play_fea,
-                    color: Color(0xFF863ED5),
+                    color: Ktextmaincolor,
                     weight: 50,
                   ),
                 ),

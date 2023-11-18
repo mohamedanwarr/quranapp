@@ -4,10 +4,11 @@ class Assets {
 
   static const String fontsAmiriBold = 'Assets/Fonts/Amiri-Bold.ttf';
   static const String fontsIcomoon = 'Assets/Fonts/icomoon.ttf';
-  static const String imagesIconlist = 'Assets/images/iconlist.svg';
+  static const String fontsIcomoon2 = 'Assets/Fonts/icomoon2.ttf';
+  static const String imagesDetailsQuran = 'Assets/images/detailsQuran.svg';
   static const String imagesLogo = 'Assets/images/logo.png';
-  static const String imagesQuranlogo = 'Assets/images/Quranlogo.svg';
+  static const String imagesMousq1 = 'Assets/images/mousq1.svg';
+  static const String imagesQuranread = 'Assets/images/Quranread.svg';
   static const String imagesSurahNum = 'Assets/images/surahNum.svg';
-  static const String imagesSurahnumber = 'Assets/images/Surahnumber.png';
 
 }

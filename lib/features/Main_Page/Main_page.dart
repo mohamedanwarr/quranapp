@@ -24,9 +24,9 @@ class _MainPageState extends State<MainPage> {
   List pages = [
     const HomeViwe(),
     const Tafseer(),
-    const TimePray(),
+    const TimePrayView(),
     const Doaa2(),
-    const BookMark_View()
+    const BookMarkView()
   ];
   int currentindex = 0;
 

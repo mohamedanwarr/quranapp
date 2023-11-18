@@ -9,7 +9,7 @@ class HomeViweBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: CustomeAppBar(),
+        appBar: CustomeAppBar(title: 'QuranApp'),
         body: const MainSectionHomeView(),
       ),
     );

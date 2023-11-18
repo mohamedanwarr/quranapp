@@ -15,7 +15,7 @@ Container buildBottomNav({void Function(int)? ontab, int? currentindex}) {
       showUnselectedLabels: false,
       onTap: ontab,
       currentIndex: currentindex!,
-      elevation: 50,
+      elevation: 100,
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
           icon: Icon(
