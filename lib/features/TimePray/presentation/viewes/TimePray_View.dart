@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:quranapp/Constant.dart';
-import 'package:quranapp/core/Utilis/FlutterFont.dart';
 import 'package:quranapp/core/Utilis/Styles.dart';
-import 'package:quranapp/features/Home/Presentation/Viwes/widgets/Custome_Home_AppBar.dart';
 class TimePrayView extends StatelessWidget {
   const TimePrayView({Key? key}) : super(key: key);
 

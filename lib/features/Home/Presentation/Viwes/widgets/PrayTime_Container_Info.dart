@@ -72,7 +72,7 @@ class PrayTimeContainerInfo extends StatelessWidget {
         Positioned(
           right: -25,
           bottom: -36,
-          child: Container(
+          child: SizedBox(
             width: 250,
             height: 230,
             child: SvgPicture.asset(

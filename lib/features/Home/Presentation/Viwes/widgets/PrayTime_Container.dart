@@ -30,7 +30,7 @@ class PrayTimeContainer extends StatelessWidget {
           shape:
           RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         ),
-        child: PrayTimeContainerInfo(),
+        child: const PrayTimeContainerInfo(),
       ),
     );
   }
