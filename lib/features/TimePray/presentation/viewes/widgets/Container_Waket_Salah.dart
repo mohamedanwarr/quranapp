@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:quranapp/Constant.dart';
+import 'package:quranapp/core/Utilis/FlutterFont.dart';
 import 'package:quranapp/core/Utilis/Styles.dart';
 
 Container ContainerWaketSalah(
@@ -32,6 +32,16 @@ Container ContainerWaketSalah(
           padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 10),
           child: Row(
             children: [
+              IconButton(
+                onPressed: () {
+                  toggleSound(index);
+                },
+                icon: const Icon(
+                  WaketSalatIcons.Fajir,
+                  size: 24,
+                ),
+                color: Ktextmaincolor,
+              ),
               Text(
                 'Duhar ',
                 style: Styles.TextStyle16.copyWith(
@@ -49,18 +59,6 @@ Container ContainerWaketSalah(
                   ),
                   const SizedBox(
                     width: 10,
-                  ),
-                  IconButton(
-                    onPressed: () {
-                      toggleSound(index);
-                    },
-                    icon: FaIcon(
-                      soundStates[index]
-                          ? FontAwesomeIcons.volumeHigh
-                          : FontAwesomeIcons.volumeXmark,
-                      size: 20,
-                    ),
-                    color: Ktextmaincolor,
                   ),
                 ],
               ),

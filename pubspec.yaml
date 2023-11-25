@@ -93,6 +93,9 @@ flutter:
     - family: icomoon2
       fonts:
           - asset: Assets/Fonts/icomoon2.ttf
+    - family: waketsalat
+      fonts:
+          - asset: Assets/Fonts/waketsalat.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:

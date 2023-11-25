@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:quranapp/Constant.dart';
+import 'package:quranapp/features/Azkar/presentation/viewes/Azkar_View.dart';
 import 'package:quranapp/features/BookMark/presentation/viewes/Boommark_View.dart';
 
 
 
-import 'package:quranapp/features/Doa2/presentation/viewes/Doa2_View.dart';
 
 import 'package:quranapp/features/Home/Presentation/Viwes/HomeView.dart';
 import 'package:quranapp/features/Main_Page/presentation/viewes/widgets/Bottom_Nav.dart';
@@ -25,7 +25,7 @@ class _MainPageState extends State<MainPage> {
     const HomeViwe(),
     const Tafseer(),
     const TimePrayView(),
-    const Doaa2(),
+    const AzkarView(),
     const BookMarkView()
   ];
   int currentindex = 0;

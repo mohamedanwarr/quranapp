@@ -31,10 +31,10 @@ class _ListViewWaketSalatState extends State<ListViewWaketSalat> {
   Widget build(BuildContext context) {
     return Expanded(
       child: ListView.builder(
-        itemCount: 7,
+        itemCount: 5,
         itemBuilder: (BuildContext context, int index) {
           return Padding(
-            padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 24),
+            padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 24),
             child: GestureDetector(
               onTap: () {
                 toggleSelection(index);

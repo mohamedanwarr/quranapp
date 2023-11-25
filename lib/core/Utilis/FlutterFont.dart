@@ -19,3 +19,12 @@ class FlutterFontsIcons2{
   static const IconData FlutterIconplay=IconData(0xe901,fontFamily: _flutterFonts2);
   static const IconData FlutterIconshare=IconData(0xe900,fontFamily: _flutterFonts2);
 }
+class WaketSalatIcons{
+  WaketSalatIcons._();
+  static const _WaketSalatIcons='waketsalat';
+  static const IconData Fajir=IconData(0xe904,fontFamily: _WaketSalatIcons);
+  static const IconData Shalat_Zhuhur=IconData(0xe903,fontFamily: _WaketSalatIcons);
+  static const IconData Shalat_Ashar=IconData(0xe902,fontFamily: _WaketSalatIcons);
+  static const IconData Shalat_Maghrib=IconData(0xe900,fontFamily: _WaketSalatIcons);
+  static const IconData Shalat_Isya=IconData(0xe901,fontFamily: _WaketSalatIcons);
+}
