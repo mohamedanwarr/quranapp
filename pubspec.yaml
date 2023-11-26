@@ -96,6 +96,9 @@ flutter:
     - family: waketsalat
       fonts:
           - asset: Assets/Fonts/waketsalat.ttf
+    - family: Zekr
+      fonts:
+          - asset: Assets/Fonts/Zekr.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:

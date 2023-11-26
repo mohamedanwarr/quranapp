@@ -9,7 +9,7 @@ class AzkarViewDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AzkarDetailsViewAppBar(context),
+      appBar: AzkarDetailsViewAppBar(context, title: 'اذكار الصباح'),
       body: const AzkarDetailsViewBody(),
     );
   }

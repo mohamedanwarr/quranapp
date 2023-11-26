@@ -12,7 +12,6 @@ class ContainerAzkarDetailsListView extends StatelessWidget {
       padding: const EdgeInsets.all(10.0),
       child: Container(
         width: double.infinity,
-        height: MediaQuery.of(context).size.height*.32,
         decoration: BoxDecoration(
             color: Ktextsecondrycolor.withOpacity(0.1),
             borderRadius: BorderRadius.circular(20)),

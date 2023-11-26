@@ -10,13 +10,15 @@ class ListViewAzkarDetailsView extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 5.0,),
       child: SizedBox(
-        height: MediaQuery.of(context).size.height*.72,
+        height: MediaQuery.of(context).size.height,
         child: ListView.builder(
-            padding: const EdgeInsets.symmetric(vertical: 10.0),
-            itemCount: 25,
-            itemBuilder: (BuildContext context, int index) {
-              return const ContainerAzkarDetailsListView();
-            }),
+          scrollDirection: Axis.vertical,
+          padding: const EdgeInsets.symmetric(vertical: 10.0),
+          itemCount: 25,
+          itemBuilder: (BuildContext context, int index) {
+            return const ContainerAzkarDetailsListView();
+          },
+        ),
       ),
     );
   }

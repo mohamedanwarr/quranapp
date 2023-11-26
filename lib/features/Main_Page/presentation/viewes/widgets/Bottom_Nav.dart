@@ -26,8 +26,8 @@ Container buildBottomNav({void Function(int)? ontab, int? currentindex}) {
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            FlutterFontsIcons.FlutterLogoTafseer,
-            size: 32,
+            FlutterFontsIcons.FlutterLogoDOaa,
+            size: 25,
           ),
           label: 'Page 2',
         ),
@@ -40,8 +40,10 @@ Container buildBottomNav({void Function(int)? ontab, int? currentindex}) {
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            FlutterFontsIcons.FlutterLogoDOaa,
-            size: 25,
+            FlutterFontsIcons.ZekrIcon,
+            size: 40,
+            weight: 20,
+            grade: 10,
           ),
           label: 'Page 3',
         ),

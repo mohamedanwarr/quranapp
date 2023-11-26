@@ -4,14 +4,14 @@ import 'package:go_router/go_router.dart';
 import 'package:quranapp/Constant.dart';
 import 'package:quranapp/core/Utilis/Styles.dart';
 
-AppBar AzkarDetailsViewAppBar(BuildContext context) {
+AppBar AzkarDetailsViewAppBar(BuildContext context,{required String title}) {
   return AppBar(
     elevation: 0,
     automaticallyImplyLeading: false,
     backgroundColor: Colors.transparent,
     centerTitle: true,
     title: Text(
-      'Morning Zekr',
+      title,
       style: Styles.TextStyle20.copyWith(
         color: Ktextmaincolor.withOpacity(1),
       ),
@@ -20,9 +20,12 @@ AppBar AzkarDetailsViewAppBar(BuildContext context) {
       onPressed: () {
         GoRouter.of(context).pop();
       },
-      icon: const FaIcon(
-        FontAwesomeIcons.arrowLeftLong,
-        color: Ktextsecondrycolor,
+      icon: const Padding(
+        padding: EdgeInsets.symmetric(horizontal: 12.0),
+        child: FaIcon(
+          FontAwesomeIcons.arrowLeftLong,
+          color: Ktextsecondrycolor,
+        ),
       ),
     ),
   );
