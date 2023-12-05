@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:quranapp/core/Utilis/Approuter.dart';
 import 'package:quranapp/features/Home/Presentation/Viwes/widgets/LastRead_Conatiner.dart';
 import 'package:quranapp/features/Home/Presentation/Viwes/widgets/PrayTime_Container.dart';
 
@@ -9,19 +11,24 @@ class FirstSectionHomeViwe extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  const SliverToBoxAdapter(
+    return SliverToBoxAdapter(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(
+          const SizedBox(
             height: 15,
           ),
-          PrayTimeContainer(),
-          SizedBox(
+          GestureDetector(
+            onTap: () {
+              GoRouter.of(context).push(AppRouter.KtimeparyView);
+            },
+            child: const PrayTimeContainer(),
+          ),
+          const SizedBox(
             height: 24,
           ),
-          LastReadContainer(),
-          SizedBox(
+          const LastReadContainer(),
+          const SizedBox(
             height: 16,
           ),
         ],

@@ -9,7 +9,7 @@ class TimePrayViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: TimePrayCustomAppBar(),
+      appBar: TimePrayCustomAppBar(context),
       body: Column(
         children: [
           const TimePrayCalendar(),

@@ -9,7 +9,7 @@ import 'package:quranapp/features/Duaa/presentation/viewes/Duaa_View.dart';
 
 import 'package:quranapp/features/Home/Presentation/Viwes/HomeView.dart';
 import 'package:quranapp/features/Main_Page/presentation/viewes/widgets/Bottom_Nav.dart';
-import 'package:quranapp/features/TimePray/presentation/viewes/TimePray_View.dart';
+import 'package:quranapp/features/Tasbeh/presentation/viewes/Tasbeh_View.dart';
 
 
 
@@ -24,7 +24,7 @@ class _MainPageState extends State<MainPage> {
   List pages = [
     const HomeViwe(),
     const DuaaView(),
-    const TimePrayView(),
+    const TasbehView(),
     const AzkarView(),
     const BookMarkView()
   ];

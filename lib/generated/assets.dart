@@ -3,6 +3,7 @@ class Assets {
   Assets._();
 
   static const String fontsAmiriBold = 'Assets/Fonts/Amiri-Bold.ttf';
+  static const String fontsBottomNavIcons = 'Assets/Fonts/BottomNavIcons.ttf';
   static const String fontsIcomoon = 'Assets/Fonts/icomoon.ttf';
   static const String fontsIcomoon2 = 'Assets/Fonts/icomoon2.ttf';
   static const String fontsWaketsalat = 'Assets/Fonts/waketsalat.ttf';
@@ -12,9 +13,11 @@ class Assets {
   static const String imagesBackground2 = 'Assets/images/background2.svg';
   static const String imagesBoy = 'Assets/images/boy.png';
   static const String imagesDetailsQuran = 'Assets/images/detailsQuran.svg';
+  static const String imagesImage12 = 'Assets/images/image 12.jpg';
   static const String imagesLogo = 'Assets/images/logo.png';
   static const String imagesMoon = 'Assets/images/moon.png';
   static const String imagesMousq1 = 'Assets/images/mousq1.svg';
+  static const String imagesPointer = 'Assets/images/pointer.png';
   static const String imagesQuranread = 'Assets/images/Quranread.svg';
   static const String imagesSujud = 'Assets/images/sujud.png';
   static const String imagesSun = 'Assets/images/sun.png';

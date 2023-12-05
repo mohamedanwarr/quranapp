@@ -16,34 +16,32 @@ Container buildBottomNav({void Function(int)? ontab, int? currentindex}) {
       onTap: ontab,
       currentIndex: currentindex!,
       elevation: 100,
-      items: const <BottomNavigationBarItem>[
+      items:  <BottomNavigationBarItem>[
         BottomNavigationBarItem(
           icon: Icon(
-            FlutterFontsIcons.FlutterLogoHome,
+            BottomNavIcons.QuranBook,
             size: 34,
           ),
           label: 'Page 1',
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            FlutterFontsIcons.FlutterLogoDOaa,
-            size: 25,
+            BottomNavIcons.Duaa,
+            size: 35,
           ),
           label: 'Page 2',
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            FlutterFontsIcons.FlutterLogoPrayTime,
+            BottomNavIcons.tasbih,
             size: 31,
           ),
           label: 'Page 3',
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            FlutterFontsIcons.ZekrIcon,
-            size: 40,
-            weight: 20,
-            grade: 10,
+            BottomNavIcons.tauhid,
+            size: 35,
           ),
           label: 'Page 3',
         ),
