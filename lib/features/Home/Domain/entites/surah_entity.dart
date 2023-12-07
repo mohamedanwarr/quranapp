@@ -1,13 +1,20 @@
-import 'package:quranapp/features/Home/Domain/entites/sub_entity.dart';
-
 class SurahEntity {
-  final int number;
+  final int num;
   final String arabicname;
   final String englishname;
   final String revelationtype;
-  final String englishNameTranslation;
-  final AyahsEntity ayahsEntity;
+  final String englishametranslation;
+  final int ayahsnum;
+  final String ayahtext;
 
-  SurahEntity({required this.number, required this.arabicname, required this.englishname, required this.revelationtype, required this.englishNameTranslation, required this.ayahsEntity});
+  SurahEntity({
+    required this.num,
+    required this.arabicname,
+    required this.englishname,
+    required this.revelationtype,
+    required this.englishametranslation,
+    required this.ayahsnum,
+    required this.ayahtext,
+  });
 }
 
